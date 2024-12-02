@@ -1,0 +1,587 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+
+    .work-stages-item
+    {
+        width: 100%;
+    }
+
+    .work-stages-item .work-stages-item__img:after
+    {
+        position: relative;
+
+        display: block;
+
+        width: 30px;
+
+        transform: rotate(90deg);
+    }
+
+
+    .text_block h1,
+    .text_block > .title
+    {
+        font-size: 24px;
+    }
+
+    .seo_text .text_block h1
+    {
+        font-size: 22px;
+    }
+
+    .text_block h2
+    {
+        font-size: 21px;
+    }
+
+    .text_block * + h2
+    {
+        margin-top: 50px;
+    }
+
+    .text_block h3
+    {
+        font-size: 18px;
+    }
+
+    .text_block * + h3
+    {
+        margin-top: 50px;
+    }
+
+    .text_block h4
+    {
+        font-size: 16px;
+    }
+
+    .text_block * + h4
+    {
+        margin-top: 50px;
+    }
+
+    .text_block q
+    {
+        font-size: 12px;
+        line-height: 20px;
+
+        margin: 30px 0;
+        padding-left: 30px;
+    }
+
+    .text_block q:before
+    {
+        width: 25px;
+
+        background-position: 50%;
+        background-size: contain;
+    }
+
+    .text_block blockquote
+    {
+        font-size: 12px;
+        line-height: 20px;
+
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    .form .line_flex .line_form
+    {
+        width: 100%;
+    }
+
+    .form .title_form
+    {
+        font-size: 24px;
+    }
+
+    .form .subTitle_form
+    {
+        font-size: 14px;
+    }
+
+    .breadcrumbs
+    {
+        padding-bottom: 0;
+    }
+
+    .breadcrumbs .cont
+    {
+        display: none;
+    }
+
+
+    .main_title
+    {
+        font-size: 24px;
+    }
+
+    .page_title
+    {
+        font-size: 24px;
+    }
+
+
+    .pagination a
+    {
+        width: 27px;
+    }
+
+
+    .buttonUp
+    {
+        bottom: 10px;
+    }
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .phone
+    {
+        font-size: 18px;
+    }
+
+    header .cont.flex
+    {
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    header .top .col_r
+    {
+        padding-top: 30px;
+    }
+
+    header .mob_menu_link
+    {
+        top: 6px;
+
+        height: 38px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+    aside .col
+    {
+        width: 100%;
+    }
+
+    aside .col + .col
+    {
+        margin-top: 25px;
+    }
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    /* .main_slider .slide {
+        height: 400px;
+        padding-top: 100px;
+    } */
+
+    .main_slider .owl-dots
+    {
+        bottom: 6px;
+    }
+
+    .main_slider .title
+    {
+        font-size: 30px;
+    }
+
+
+    .advantages .item
+    {
+        width: calc(50% - 10px);
+        margin-left: 10px;
+    }
+
+
+    .products
+    {
+        margin-top: 50px;
+    }
+
+    .products .products_slider .slide
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .products .products_slider .slide .product_wrap
+    {
+        width: 50%;
+    }
+
+    .products .products_slider .slide .product_wrap + .product_wrap
+    {
+        margin-top: 0;
+    }
+
+    .products .products_slider .slide .product_wrap + .product_wrap .product:before
+    {
+        display: block;
+    }
+
+    .products .grid .product_wrap
+    {
+        width: 50%;
+    }
+
+    .products .grid .product_wrap:nth-child(3n + 1) .product:before
+    {
+        display: block;
+    }
+
+    .products .grid .product_wrap:nth-child(2n + 1) .product:before
+    {
+        display: none;
+    }
+
+
+    .advantages
+    {
+        margin-top: 50px;
+        padding-top: 20px;
+    }
+
+
+    .section_info
+    {
+        padding-top: 50px;
+    }
+
+
+    .section_invite
+    {
+        margin-top: 50px;
+    }
+
+    .section_invite .title
+    {
+        font-size: 20px;
+    }
+
+    .section_invite .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .main_articles
+    {
+        margin-top: 50px;
+    }
+
+    .articleBig .name
+    {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .articles .box
+    {
+        margin-top: -4px;
+    }
+
+    .articles .item.flex .box
+    {
+        width: calc(100% - 95px);
+    }
+
+    .articles .name
+    {
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .articles .img
+    {
+        width: 80px;
+    }
+
+
+    .seo_text
+    {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+
+    .inform figure figcaption
+    {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .certs
+    {
+        margin-left: -15px;
+    }
+
+    .certs .cert
+    {
+        width: calc(50% - 15px);
+        margin-left: 15px;
+    }
+
+
+    .table_info tr
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        padding-top: 15px;
+    }
+
+    .table_info tr td
+    {
+        display: block;
+
+        width: 50%;
+        padding-top: 15px;
+    }
+
+    .table_info tr td:nth-child(2n)
+    {
+        padding-right: 0;
+    }
+
+    .table_info tr td.buy
+    {
+        width: 100%;
+    }
+
+    .table_info tr td.buy:last-child
+    {
+        width: 100%;
+    }
+
+    .product_info .data .discount
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .effects
+    {
+        margin-top: 50px;
+    }
+
+
+    .technology
+    {
+        margin-top: 50px;
+        padding: 50px 0;
+    }
+
+    .products.bordTop
+    {
+        padding-top: 50px;
+    }
+
+
+    .technology .grid
+    {
+        margin-top: 10px;
+    }
+
+    .technology .item
+    {
+        width: calc(100% - 8px);
+        margin-top: 30px;
+    }
+
+
+
+
+    .sorting .view .name
+    {
+        display: none;
+    }
+
+    .sorting .view .nice-select .list .list_item
+    {
+        padding-right: 8px;
+        padding-left: 8px;
+    }
+
+    .sorting .view .nice-select
+    {
+        margin-left: 0;
+    }
+
+
+    .banner .name
+    {
+        font-size: 24px;
+    }
+
+
+    .carousel_in_text
+    {
+        margin-top: 50px;
+    }
+
+
+    .section_form
+    {
+        margin-top: 50px;
+    }
+
+
+    .effects_carousel .effect a .name
+    {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    .add_product_list .products .grid .product_wrap
+    {
+        width: 50%;
+    }
+
+
+
+    .effects_catalog .row
+    {
+        margin-bottom: -16px;
+        margin-left: -12px;
+    }
+
+
+    .effects_catalog .row > *,
+    .effects_catalog .row > *.big
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 16px;
+        margin-left: 12px;
+    }
+
+
+    .effects_catalog .item .thumb
+    {
+        height: 95px;
+        margin-bottom: 8px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer
+    {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    footer .logo
+    {
+        width: 80px;
+    }
+
+    footer .info .col_l
+    {
+        max-width: calc(100% - 95px);
+    }
+
+
+    footer .phone a
+    {
+        margin-right: 12px;
+    }
+
+    footer .copy
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    footer .info
+    {
+        margin-bottom: 30px;
+    }
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+    .modal
+    {
+        padding: 30px 5px;
+    }
+
+    .table_info
+    {
+        position: relative;
+
+        margin-bottom: 92px;
+    }
+
+    .table_info .buy
+    {
+        position: absolute;
+        bottom: -62px;
+        left: 0;
+
+        width: 100%;
+    }
+
+    .icons_desc
+    {
+        justify-content: center;
+    }
+
+    .icon_item:hover
+    {
+        box-shadow: unset;
+    }
+
+    .icon_item-desc
+    {
+        position: fixed;
+        top: 50%;
+        right: unset;
+        left: 50%;
+
+        overflow-x: hidden;
+        overflow-y: auto;
+
+        width: 90%;
+        height: 40%;
+        padding: 30px;
+
+        transform: translate(-50%, -50%);
+
+        box-shadow: 0 0 59px 0 rgba(0, 0, 0, .3);
+    }
+
+    .icon_item-desc .close
+    {
+        display: block;
+    }
+
+    .icon_item-desc:after
+    {
+        display: none;
+    }
+}
