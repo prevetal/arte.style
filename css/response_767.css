@@ -150,6 +150,21 @@
         background: #fff;
     }
 
+
+    header .messengers
+    {
+        margin-top: 12px;
+    }
+
+
+    header .messengers img
+    {
+        width: 32px;
+        height: 32px;
+    }
+
+
+
     /*---------------
         Sidebar
     ---------------*/

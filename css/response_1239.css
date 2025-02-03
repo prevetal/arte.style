@@ -24,6 +24,19 @@
     }
 
 
+    header .messengers
+    {
+        gap: 20px;
+    }
+
+
+    header .messengers img
+    {
+        width: 36px;
+        height: 36px;
+    }
+
+
 
     /*---------------
         Main section

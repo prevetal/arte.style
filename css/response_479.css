@@ -154,7 +154,7 @@
 
     header .top .col_r
     {
-        padding-top: 30px;
+        padding-top: 3px;
     }
 
     header .mob_menu_link
@@ -164,6 +164,25 @@
         height: 38px;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+
+
+    header .contact
+    {
+        padding-right: 52px;
+    }
+
+
+    header .messengers
+    {
+        gap: 16px;
+    }
+
+
+    header .messengers img
+    {
+        width: 28px;
+        height: 28px;
     }
 
 
